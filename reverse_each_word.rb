@@ -3,7 +3,7 @@ def reverse_each_word(input)
   word_array = input.split(" ")
   output_array = []
   
-  word_array.each {|word|
+  word_array.collect {|word|
   split_string = word.split("")
   reversed_string = []
   word.size.times {
