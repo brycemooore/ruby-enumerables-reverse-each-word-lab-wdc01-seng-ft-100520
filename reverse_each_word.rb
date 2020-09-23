@@ -9,4 +9,5 @@ def reverse_each_word(input)
   output
 end 
 
-reverse_each_word("Hello there, and how are you?")
+x = reverse_each_word("Hello there, and how are you?")
+puts x 
