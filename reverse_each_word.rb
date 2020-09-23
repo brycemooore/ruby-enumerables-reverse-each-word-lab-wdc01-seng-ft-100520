@@ -5,7 +5,7 @@ def reverse_each_word(input)
   
   word_array.each {|word|
   split_string = word.split("")
-  reversed_string = ""
+  reversed_string = []
   word.size.times {
     reversed_string << split_string.pop
   }
