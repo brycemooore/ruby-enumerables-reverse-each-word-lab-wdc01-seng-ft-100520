@@ -10,4 +10,5 @@ def reverse_each_word(input)
 end 
 
 x = reverse_each_word("Hello there, and how are you?")
+x.reverse 
 puts x 
