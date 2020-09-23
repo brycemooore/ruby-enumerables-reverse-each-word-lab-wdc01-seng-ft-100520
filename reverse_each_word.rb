@@ -8,3 +8,5 @@ def reverse_each_word(input)
   output = word_array.join(" ")
   output
 end 
+
+reverse_each_word("")
